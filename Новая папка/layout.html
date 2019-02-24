@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/styles.css" rel="stylesheet">
+    <title>Layout</title>
+</head>
+<body>
+    <ul class="navigation">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">About</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Blog</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Contact</a>
+        </li>
+    </ul>
+
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label class="label-nav-triger" for="nav-trigger"></label>
+
+    <div class="header">
+        <ul class="header__nav">
+            <li class="header__nav-list">
+                <a href="#introduction" class="header__nav-link header__nav-link--one">Учебник</a>
+            </li>
+            <li class="header__nav-list">
+                <a href="#courses" class="header__nav-link">Курсы</a>
+            </li>
+            <li class="header__nav-list">
+                <a href="https://javascript.ru/forum/" target="_blank" class="header__nav-link">Форум</a>
+            </li>
+            <li class="header__nav-list">
+                <a href="https://es5.javascript.ru/" target="_blank" class="header__nav-link">ES5</a>
+            </li>
+            <li class="header__nav-list">
+                <a href="#tests" class="header__nav-link">Тесты знаний</a>
+            </li>
+            <li class="header__nav-list">
+                <a href="#" class="header__nav-link">Стажировки</a>
+            </li>
+        </ul>  
+
+    </div>
+
+    <div class="wrapper">
+        <div class="introduction" id="introduction">
+            <h1>Введение в JavaScript</h1>
+            <p>Давайте посмотрим, что такого особенного в JavaScript, почему именно он, и какие еще технологии существуют, кроме JavaScript.</p>
+
+            <h3>Что такое JavaScript?</h3>
+            <p><i>JavaScript</i> изначально создавался для того, чтобы сделать web-странички «живыми». Программы на этом языке называются <i>скриптами</i>. В браузере они подключаются напрямую к HTML и, как только загружается страничка – тут же выполняются.</p>
+            <p>Программы на JavaScript – обычный текст. Они не требуют какой-то специальной подготовки. В этом плане JavaScript сильно отличается от другого языка, который называется Java</p>
+
+            <h3>Что умеет JavaScript?</h3>
+            <p>Современный JavaScript – это «безопасный» язык программирования общего назначения. Он не предоставляет низкоуровневых средств работы с памятью, процессором, так как изначально был ориентирован на браузеры, в которых это не требуется. Что же касается остальных возможностей – они зависят от окружения, в котором запущен JavaScript. В браузере JavaScript умеет делать всё, что относится к манипуляции со страницей, взаимодействию с посетителем и, в какой-то мере, с сервером:
+            <ul class="introduction__list">
+                <li>Создавать новые HTML-теги, удалять существующие, менять стили элементов, прятать, показывать элементы и т.п.</li>
+                <li>Реагировать на действия посетителя, обрабатывать клики мыши, перемещения курсора, нажатия на клавиатуру и т.п.</li>
+                <li>Посылать запросы на сервер и загружать данные без перезагрузки страницы (эта технология называется "AJAX").</li>
+                <li>Получать и устанавливать cookie, запрашивать данные, выводить сообщения…</li>
+                <li>…и многое, многое другое!</li>
+            </ul>
+            </p>
+        </div>
+        <div class="courses" id="courses">
+            <h1>Курсы Javascript</h1>
+            <p>Здесь находятся «правильные» курсы по профессиональному Javascript, цель которых — научить думать на Javascript, писать просто, быстро и красиво.</p>
+        </div>
+        <div class="tests" id="tests">
+            <h1>Тестирование знаний</h1>
+            <p>На этой странице вы можете протестировать свои знания Javascript, выбрав один из тестов.</p>
+            <p>Если у вас не получилось ответить на многие вопросы – не расстраивайтесь. Его цель – не только проверить знания, но и помочь заполнить пробелы в них. Многие вопросы неочевидны и требуют не только знаний, но и опыта. Удачи!</p>
+        </div>
+        <div>
+        	<h1>GIT</h1>
+        	<p>Git – одна из самых популярных систем для хранения кода и не только.</p>
+
+			<p>Многие начинающие разработчики избегают его изучения, а зря. В итоге на решение проблем и непоняток с гит тратится гораздо больше времени, чем если просто один раз "раскурить" этот самый гит.</p>
+
+			<p>Стоит один раз разобраться, и работа с git станет комфортной, а проблемы и непонятки с состоянием репозитория уйдут в прошлое.</p></div>
+    </div>
+
+    <div class="footer"></div>
+</body>
+</html> 
